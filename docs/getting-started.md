@@ -25,7 +25,7 @@ To use MeshCore, you'll need **LoRa-capable hardware devices** that can run the 
 - **Repeaters** – for boosting range and relaying messages
 - **Room Servers** – for managing local mesh groups
 
-Check out the [Boards](/hardware) section for supported devices and the [Firmware](/firmware) section to choose the right firmware for your setup.
+Check out the Hardware section for supported devices and the Firmware section to choose the right firmware for your setup.
 
 ---
 
