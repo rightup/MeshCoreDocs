@@ -19,12 +19,12 @@
         <span class="support-icon">✓</span>
         <span class="support-text">Companion Radio Firmware</span>
       </div>
-      <div class="support-item supported">
-        <span class="support-icon">✓</span>
+      <div class="support-item unsupported">
+        <span class="support-icon">✗</span>
         <span class="support-text">Repeater</span>
       </div>
-      <div class="support-item supported">
-        <span class="support-icon">✓</span>
+      <div class="support-item unsupported">
+        <span class="support-icon">✗</span>
         <span class="support-text">Room Server</span>
       </div>
     </div>

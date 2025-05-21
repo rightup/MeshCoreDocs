@@ -10,7 +10,7 @@
   </div>
   <div class="device-intro">
     <p class="device-description">Compact ESP32-S3 based LoRa development board with built-in OLED display and multiple LoRa chip options.</p>
-    <div class="model-variants">h
+    <div class="model-variants">
       <div class="variant-tag lora-868">868/915MHz (SX1262/SX1276)</div>
       <div class="variant-tag lora-24g">2.4GHz (SX1280)</div>
     </div>

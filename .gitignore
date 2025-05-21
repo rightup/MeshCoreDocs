@@ -9,6 +9,9 @@ dist-ssr/
 # Vite cache
 .vite/
 
+# vitepress cache
+docs/.vitepress/cache
+
 # Local env files
 .env
 .env.*.local

@@ -20,25 +20,30 @@ import DefaultTheme from 'vitepress/theme'
 
 <style scoped>
 .video-wrapper {
-  padding-left: 2rem;
-  position: relative;
-  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 300px;
+  padding: 2rem 1rem;
+  box-sizing: border-box;
+  width: 100%;
 }
 
 .hero-video {
-  width: 560px;
-  height: 315px;
-  position: relative;
-  z-index: 2;
-  max-width: 100%;
+  width: 100%;
+  max-width: 800px;
+  aspect-ratio: 16 / 9;
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
 }
 
-/* Mobile adjustment: push video down by 20px */
+/* Mobile tweaks */
 @media (max-width: 768px) {
-  .hero-video {
-    margin-top: 20px;
-    padding-bottom: 30px;;
+  .video-wrapper {
+    margin-top: 10%;
+
+    min-height: auto;
   }
 }
 </style>
-
