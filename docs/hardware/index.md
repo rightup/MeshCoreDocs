@@ -43,7 +43,7 @@
     </thead>
     <tbody>
       <tr>
-              <td data-label="Device Name"><a href="/hardware/heltec/v3">Heltec V3 LoRa</a></td>
+              <td data-label="Device Name"><a href="/hardware/heltec/heltec-v3">Heltec V3 LoRa</a></td>
         <td data-label="Chipset/Module"><span class="chipset">SX1262</span></td>
         <td data-label="Notes">Compact and widely used</td>
       </tr>
@@ -68,22 +68,22 @@
         <td data-label="Notes">Great display integration</td>
       </tr>
       <tr>
-        <td data-label="Device Name"><a href="/hardware/heltec/t114">Heltec T114</a></td>
+        <td data-label="Device Name"><a href="/hardware/heltec/heltec-t114">Heltec T114</a></td>
         <td data-label="Chipset/Module"><span class="chipset">ESP32-C3 + SX1262</span></td>
         <td data-label="Notes">Newer board, good compact design</td>
       </tr>
       <tr>
-        <td data-label="Device Name"><a href="/hardware/seeed/station-g2">Station G2</a></td>
+        <td data-label="Device Name"><a href="/hardware/seeeds/station-g2">Station G2</a></td>
         <td data-label="Chipset/Module"><span class="chipset">Seeed LoRa-E5</span></td>
         <td data-label="Notes">Industrial-grade gateway</td>
       </tr>
       <tr>
-        <td data-label="Device Name"><a href="/hardware/seeed/sensecap-t1000e">SenseCAP T1000-E</a></td>
+        <td data-label="Device Name"><a href="/hardware/seeeds/sensecap-t1000e">SenseCAP T1000-E</a></td>
         <td data-label="Chipset/Module"><span class="chipset">LoRa-E5</span></td>
         <td data-label="Notes">Rugged outdoor device</td>
       </tr>
       <tr>
-        <td data-label="Device Name"><a href="/hardware/heltec/v2">Heltec V2</a></td>
+        <td data-label="Device Name"><a href="/hardware/heltec/heltec-v2">Heltec V2</a></td>
         <td data-label="Chipset/Module"><span class="chipset">SX1276</span></td>
         <td data-label="Notes">Older board, still usable</td>
       </tr>
@@ -146,7 +146,7 @@
   border-radius: 8px;
   padding: 1.5rem;
   border: 1px solid #333;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  box-shadow: 0 4px 12px rgb(0 0 0 / 15%);
   display: flex;
   align-items: flex-start;
 }
@@ -198,7 +198,7 @@
   border-radius: 8px;
   overflow: hidden;
   border: 1px solid #333;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  box-shadow: 0 4px 12px rgb(0 0 0 / 15%);
   margin: 1.5rem 0;
 }
 
@@ -292,7 +292,7 @@
   border-radius: 8px;
   padding: 1.5rem;
   border: 1px solid #333;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  box-shadow: 0 4px 12px rgb(0 0 0 / 15%);
   margin: 2rem 0;
 }
 
@@ -380,7 +380,7 @@
     border-radius: 8px;
     margin-bottom: 1rem;
     padding: 1rem;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 8px rgb(0 0 0 / 10%);
   }
   
   .boards-table tbody tr:hover {

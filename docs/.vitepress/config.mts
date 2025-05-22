@@ -157,7 +157,7 @@ export default defineConfig({
 
 
     editLink: {
-      pattern: 'https://github.com/rightup/MeshCoreDocs/docs/:path',
+      pattern: 'https://github.com/rightup/MeshCoreDocs/dev/docs/:path',
       text: 'Edit this page on GitHub'
     },
 

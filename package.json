@@ -1,5 +1,7 @@
 {
   "devDependencies": {
+    "stylelint": "^16.19.1",
+    "stylelint-config-standard": "^38.0.0",
     "vitepress": "^1.6.3"
   },
   "scripts": {

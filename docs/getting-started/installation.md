@@ -87,31 +87,3 @@ Replace `{frequency}` with the appropriate value for your region (e.g., `8680000
 
 This step is essential to enable remote administration of the repeater or room server via RF.
 
-<style>
-.section-divider {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 3rem 0;
-}
-
-.section-divider-small {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 2rem 0;
-}
-
-.divider-line {
-  height: 2px;
-  background: linear-gradient(90deg, rgba(30, 59, 112, 0.1), rgba(30, 59, 112, 0.8) 50%, rgba(30, 59, 112, 0.1));
-  flex-grow: 1;
-}
-
-.divider-line-small {
-  height: 1px;
-  background: linear-gradient(90deg, rgba(30, 59, 112, 0), rgba(30, 59, 112, 0.4) 50%, rgba(30, 59, 112, 0));
-  width: 50%;
-  margin: 0 auto;
-}
-</style>
