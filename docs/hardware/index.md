@@ -43,52 +43,52 @@
     </thead>
     <tbody>
       <tr>
-        <td data-label="Device Name"><a href="/hardware/heltec/v3/">Heltec V3 LoRa</a></td>
+              <td data-label="Device Name"><a href="/hardware/heltec/v3">Heltec V3 LoRa</a></td>
         <td data-label="Chipset/Module"><span class="chipset">SX1262</span></td>
         <td data-label="Notes">Compact and widely used</td>
       </tr>
       <tr>
-        <td data-label="Device Name"><a href="/hardware/rak/rak4631.html">RAK4631 (19003, 19007, 19026)</a></td>
+        <td data-label="Device Name"><a href="/hardware/rak/rak4631">RAK4631 (19003, 19007, 19026)</a></td>
         <td data-label="Chipset/Module"><span class="chipset">SX1262</span></td>
         <td data-label="Notes">Nordic nRF52840 based, very capable</td>
       </tr>
       <tr>
-        <td data-label="Device Name"><a href="/hardware/xiao/xiaos3-wio.html">Xiao S3 WIO (SX1262 combo)</a></td>
+        <td data-label="Device Name"><a href="/hardware/xiao/xiaos3-wio">Xiao S3 WIO (SX1262 combo)</a></td>
         <td data-label="Chipset/Module"><span class="chipset">ESP32-S3 + SX1262</span></td>
         <td data-label="Notes">Combo board with small form factor</td>
       </tr>
       <tr>
-        <td data-label="Device Name"><a href="/hardware/xiao/xiaoc3-sx126x.html">Xiao C3 + SX126x module</a></td>
+        <td data-label="Device Name"><a href="/hardware/xiao/xiaoc3-sx126x">Xiao C3 + SX126x module</a></td>
         <td data-label="Chipset/Module"><span class="chipset">ESP32-C3 + SX126x</span></td>
         <td data-label="Notes">Requires external LoRa module</td>
       </tr>
       <tr>
-        <td data-label="Device Name"><a href="/hardware/lilygo/t3s3.html">LilyGo T3S3</a></td>
+        <td data-label="Device Name"><a href="/hardware/lilygo/t3s3">LilyGo T3S3</a></td>
         <td data-label="Chipset/Module"><span class="chipset">ESP32-S3 + SX1276</span></td>
         <td data-label="Notes">Great display integration</td>
       </tr>
       <tr>
-        <td data-label="Device Name"><a href="/hardware/heltec/t114.html">Heltec T114</a></td>
+        <td data-label="Device Name"><a href="/hardware/heltec/t114">Heltec T114</a></td>
         <td data-label="Chipset/Module"><span class="chipset">ESP32-C3 + SX1262</span></td>
         <td data-label="Notes">Newer board, good compact design</td>
       </tr>
       <tr>
-        <td data-label="Device Name"><a href="/hardware/seeed/station-g2.html">Station G2</a></td>
+        <td data-label="Device Name"><a href="/hardware/seeed/station-g2">Station G2</a></td>
         <td data-label="Chipset/Module"><span class="chipset">Seeed LoRa-E5</span></td>
         <td data-label="Notes">Industrial-grade gateway</td>
       </tr>
       <tr>
-        <td data-label="Device Name"><a href="/hardware/seeed/sensecap-t1000e.html">SenseCAP T1000-E</a></td>
+        <td data-label="Device Name"><a href="/hardware/seeed/sensecap-t1000e">SenseCAP T1000-E</a></td>
         <td data-label="Chipset/Module"><span class="chipset">LoRa-E5</span></td>
         <td data-label="Notes">Rugged outdoor device</td>
       </tr>
       <tr>
-        <td data-label="Device Name"><a href="/hardware/heltec/v2.html">Heltec V2</a></td>
+        <td data-label="Device Name"><a href="/hardware/heltec/v2">Heltec V2</a></td>
         <td data-label="Chipset/Module"><span class="chipset">SX1276</span></td>
         <td data-label="Notes">Older board, still usable</td>
       </tr>
       <tr>
-        <td data-label="Device Name"><a href="/hardware/lilygo/tlora32-v1-6.html">LilyGo TLora32 v1.6</a></td>
+        <td data-label="Device Name"><a href="/hardware/lilygo/tlora32-v1-6">LilyGo TLora32 v1.6</a></td>
         <td data-label="Chipset/Module"><span class="chipset">SX1276</span></td>
         <td data-label="Notes">Widely available budget board</td>
       </tr>
