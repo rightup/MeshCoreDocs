@@ -6,7 +6,7 @@
 
 <div class="firmware-intro">
   <div class="intro-content">
-    MeshCore has four firmware types that are not available on other LoRa systems. Each type responds to specific needs in creating flexible and efficient mesh networks.
+    MeshCore has diffrent types of firmware that are not available on other LoRa systems. Each type responds to specific needs in creating flexible and efficient mesh networks.
   </div>
 </div>
 
