@@ -26,7 +26,7 @@ export default defineConfig({
         text: 'Getting Started',
         collapsed: true,
         items: [
-          { text: 'Overview', link: '/getting-started/overview/' },
+          { text: 'Overview', link: '/getting-started/overview' },
           { text: 'Installation', link: '/getting-started/installation' },
           { text: 'Configuration', link: '/getting-started/configuration' },
           { text: 'Troubleshooting', link: '/getting-started/troubleshooting' }
@@ -157,7 +157,7 @@ export default defineConfig({
 
 
     editLink: {
-      pattern: 'https://github.com/rightup/MeshCoreDocs/dev/docs/:path',
+      pattern: 'https://github.com/rightup/MeshCoreDocs/tree/dev/docs/:path',
       text: 'Edit this page on GitHub'
     },
 
