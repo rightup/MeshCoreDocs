@@ -190,33 +190,36 @@
   <h3 class="dfu-title">Entering DFU Mode (Device Firmware Update)</h3>
   <div class="dfu-steps">
     <div class="dfu-step">
-      <div class="step-number">1</div>
-      <div class="step-content">Turn off the device</div>
+      <div class="nfu-step-number">1</div>
+      <div class="nfu-step-content">Turn off the device</div>
     </div>
     <div class="dfu-step">
-      <div class="step-number">2</div>
-      <div class="step-content">Connect USB cable to device</div>
+      <div class="nfu-step-number">2</div>
+      <div class="nfu-step-content">Connect USB cable to device</div>
     </div>
     <div class="dfu-step">
-      <div class="step-number">3</div>
-      <div class="step-content">Hold down trackball (keep holding)</div>
+      <div class="nfu-step-number">3</div>
+      <div class="nfu-step-content">Hold down trackball (keep holding)</div>
     </div>
     <div class="dfu-step">
-      <div class="step-number">4</div>
-      <div class="step-content">Turn on device</div>
+      <div class="nfu-step-number">4</div>
+      <div class="nfu-step-content">Turn on device</div>
     </div>
     <div class="dfu-step">
-      <div class="step-number">5</div>
-      <div class="step-content">Wait for USB connection sound</div>
+      <div class="nfu-step-number">5</div>
+      <div class="nfu-step-content">Wait for USB connection sound</div>
     </div>
     <div class="dfu-step">
-      <div class="step-number">6</div>
-      <div class="step-content">Release trackball</div>
+      <div class="nfu-step-number">6</div>
+      <div class="nfu-step-content">Release trackball</div>
     </div>
     <div class="dfu-step">
-      <div class="step-number">7</div>
-      <div class="step-content">Device is now in DFU mode</div>
+      <div class="nfu-step-number">7</div>
+      <div class="nfu-step-content">Device is now in DFU mode</div>
     </div>
   </div>
-  <div class="dfu-note">Once in DFU mode, you can flash firmware using the MeshCore flasher tool.</div>
+  <div class="dfu-note">
+    Once in DFU mode, you can flash firmware using the MeshCore flasher tool.
+  </div>
 </div>
+
