@@ -1538,6 +1538,15 @@ blockquote p  {
 }
 
 
+.param-section li {
+  color: #eee;
+  font-weight: 500;
+  line-height: 1.6;
+  padding: 0.25rem 0;
+  border-bottom: 1px solid #333;
+}
+
+
 .feature-details p, .feature-details li  { 
   color: #222;
   font-weight: 500;
@@ -1549,6 +1558,14 @@ blockquote p  {
   padding-left: 1.5rem;
   color: #eee;
 }
+
+.room-server-params li {
+  color: #eee;
+  font-weight: 500;
+  line-height: 1.6;
+  padding: 0.25rem 0;
+}
+
 
 
 .tool-card li {
@@ -2181,6 +2198,39 @@ a  {
   line-height: 1.6;
   margin-bottom: 1rem;
 }
+
+.advanced-card p {
+  color: #eee;
+  font-weight: 500;
+  line-height: 1.6;
+  font-size: 1rem;
+  margin: 0;
+}
+
+.cli-container p {
+  color: #eee;
+  font-weight: 500;
+  line-height: 1.6;
+  font-size: 1.05rem;
+  margin-bottom: 1rem;
+}
+
+.method-card p {
+  color: #eee;
+  font-weight: 500;
+  line-height: 1.6;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.config-container p {
+  color: #eee;
+  font-weight: 500;
+  line-height: 1.6;
+  font-size: 1.05rem;
+  margin: 0;
+}
+
 
 
 .feature-content p:last-child  { 
@@ -3256,4 +3306,439 @@ div[class*="language-"]  {
   flex: 1;
 }
 
+
+
+/* Alert box */
+.alert-box {
+  display: flex;
+  border-radius: 8px;
+  padding: 1.25rem;
+  margin: 2rem 0;
+  border: 1px solid rgb(255 193 7 / 30%);
+  background-color: rgb(255 193 7 / 10%);
+}
+
+.alert-box.warning {
+  border-color: rgb(255 193 7 / 30%);
+  background-color: rgb(255 193 7 / 10%);
+}
+
+.alert-icon {
+  font-size: 1.5rem;
+  margin-right: 1rem;
+}
+
+.alert-box.warning .alert-icon {
+  color: #ffc107;
+}
+
+.alert-content {
+  flex: 1;
+}
+
+.alert-title {
+  color: #ffc107;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  font-size: 1.1rem;
+}
+
+.alert-text {
+  color: #eee;
+  line-height: 1.5;
+}
+
+
+
+
+/* DFU Instructions */
+.dfu-container {
+  background-color: #1e1e1e;
+  color: #eee;
+  padding: 2rem;
+  max-width: 600px;
+  margin: 2rem auto;
+  border-radius: 10px;
+  font-family: sans-serif;
+  box-shadow: 0 0 10px rgb(0 0 0 / 30%);
+}
+
+.dfu-title {
+  font-size: 1.5rem;
+  padding-bottom: 1.5rem;
+  color: #fff;
+}
+
+.dfu-steps {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.dfu-step {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.nfu-step-number {
+  background-color: #3884ff;
+  color: white;
+  font-weight: bold;
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.1rem;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.nfu-step-content {
+  background-color: #2a2a2a;
+  padding: 0.75rem 1rem;
+  border-radius: 6px;
+  flex: 1;
+  font-size: 1rem;
+  line-height: 1.4;
+}
+
+.dfu-note {
+  margin-top: 2rem;
+  font-size: 0.95rem;
+  background-color: #333;
+  padding: 1rem;
+  border-left: 4px solid #3884ff;
+  border-radius: 6px;
+  color: #ccc;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.config-heading {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.config-icon {
+  font-size: 1.5rem;
+  margin-right: 1rem;
+  background: #3884ff;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.config-heading h3 {
+  margin: 0;
+  color: #fff;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+
+/* Methods grid */
+.methods-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+
+.method-card {
+  background-color: #1a1a1a;
+  border-radius: 8px;
+  padding: 1.5rem;
+  border: 1px solid #333;
+  box-shadow: 0 4px 12px rgb(0 0 0 / 15%);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.method-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgb(0 0 0 / 20%);
+}
+
+.method-icon {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  background: linear-gradient(135deg, #3884ff 0%, #2a6ed6 100%);
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.method-card h3 {
+  color: #fff;
+  font-size: 1.2rem;
+  margin-bottom: 0.75rem;
+}
+
+
+
+.method-link {
+  display: inline-flex;
+  align-items: center;
+  background-color:#3884ff;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.9rem;
+  transition: background-color 0.2s;
+}
+
+.method-link:hover {
+  background-color: #2a6ed6;
+}
+
+.code-example {
+  background-color: #0d1117;
+  border: 1px solid #30363d;
+  border-radius: 6px;
+  padding: 0.75rem;
+  margin: 1rem 0;
+
+}
+
+.code-example code {
+  color: #7ec699;
+  font-size: 0.9rem;
+}
+
+/* Interface container */
+.interface-container {
+  background-color: #1a1a1a;
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin: 2rem 0;
+  border: 1px solid #333;
+  box-shadow: 0 4px 12px rgb(0 0 0 / 15%);
+}
+
+.interface-info h3 {
+  color: #fff;
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+}
+
+
+.interface-image {
+  position: relative;
+  margin-top: 1rem;
+}
+
+/* Parameters container */
+.params-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+
+.param-section {
+  background-color: #1a1a1a;
+  border-radius: 8px;
+  padding: 1.5rem;
+  border: 1px solid #333;
+  box-shadow: 0 4px 12px rgb(0 0 0 / 15%);
+}
+
+.param-section h3 {
+  color: #fff;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  border-bottom: 2px solid #3884ff;
+  padding-bottom: 0.5rem;
+}
+
+.param-section ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+
+.param-section li:last-child {
+  border-bottom: none;
+}
+
+/* Room server container */
+.room-server-container {
+  background-color: #1a1a1a;
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin: 2rem 0;
+  border: 1px solid #333;
+  box-shadow: 0 4px 12px rgb(0 0 0 / 15%);
+}
+
+.room-server-heading {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.room-server-icon {
+  font-size: 1.5rem;
+  margin-right: 1rem;
+  background: #3884ff;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.room-server-heading h3 {
+  margin: 0;
+  color: #fff;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.room-server-params h4 {
+  color: #fff;
+  font-size: 1.1rem;
+  margin: 1.5rem 0 0.75rem;
+}
+
+.room-server-params ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+
+/* Advanced grid */
+.advanced-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+
+.advanced-card {
+  background-color: #1a1a1a;
+  border-radius: 8px;
+  padding: 1.5rem;
+  border: 1px solid #333;
+  box-shadow: 0 4px 12px rgb(0 0 0 / 15%);
+}
+
+.advanced-card h3 {
+  color: #fff;
+  font-size: 1.2rem;
+  margin-bottom: 0.75rem;
+  border-bottom: 2px solid #3eaf7c;
+  padding-bottom: 0.5rem;
+}
+
+
+
+/* CLI container */
+.cli-container {
+  background-color: #1a1a1a;
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin: 2rem 0;
+  border: 1px solid #333;
+  box-shadow: 0 4px 12px rgb(0 0 0 / 15%);
+}
+
+.cli-heading {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.cli-icon {
+  font-size: 1.5rem;
+  margin-right: 1rem;
+  background: #3884ff;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.cli-heading h3 {
+  margin: 0;
+  color: #fff;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+
+
+.cli-link {
+  display: inline-flex;
+  align-items: center;
+  background-color: #3884ff;
+  color: white;
+  padding: 0.75rem 1.25rem;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1rem;
+  transition: background-color 0.2s;
+}
+
+.cli-link:hover {
+  background-color: #2a6ed6;
+}
+
+.cli-link-icon {
+  margin-right: 0.75rem;
+  font-size: 1.2rem;
+}
+
+/* Custom blocks */
+.custom-info-block, .custom-tip-block, .custom-warning-block {
+  margin: 1.5rem 0;
+  border-radius: 8px;
+  padding: 15px 20px;
+  background-color: #242424;
+  border-left: 4px solid;
+}
+
+.custom-info-title, .custom-tip-title, .custom-warning-title {
+  font-weight: 600;
+  margin-bottom: 8px;
+  font-size: 0.95rem;
+}
+
+.custom-info-content, .custom-tip-content, .custom-warning-content {
+  color: #eee;
+  font-size: 1rem;
+  line-height: 1.5;
+}
 

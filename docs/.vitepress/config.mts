@@ -53,6 +53,7 @@ export default defineConfig({
         text: 'Firmware Management',
         collapsed: true,
         items: [
+          { text: 'Configuration', link: '/firmware/updating/configuration' },
           { text: 'Manual Updates', link: '/firmware/updating/manual' },
           { text: 'Over-the-Air Updates', link: '/firmware/updating/ota' },
           { text: 'Best Practices', link: '/firmware/updating/best-practices' }
